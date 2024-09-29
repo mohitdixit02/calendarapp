@@ -1,0 +1,27 @@
+/* Not login */
+.not_login_show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 100%;
+    text-align: center;
+}
+
+.not_login_show h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(255, 24, 24);
+}
+.not_login_show p{
+    margin-top: 7px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Upcoming events css */
+.top_strip_upcoming_events h2{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(255, 40, 40);
+}

@@ -1,0 +1,28 @@
+.popup_top_view{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.event_show_strip{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+    border-radius: 6px;
+    background-color: rgba(231, 229, 244, 0.776);
+}
+
+.event_show_strip p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.event_show_strip_holder{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}

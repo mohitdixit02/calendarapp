@@ -1,0 +1,6 @@
+# py cache
+__pycache__/
+# node modules
+/frontend/node_modules
+# .env
+/frontend/.env

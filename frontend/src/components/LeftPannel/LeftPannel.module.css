@@ -1,0 +1,77 @@
+.left_pannel_holder{
+    width: 15%;
+    position: relative;
+    border-right: 1px solid rgba(195, 200, 255, 0.326);
+}
+
+.left_pannel_holder .toggle_button{
+    margin: 5px 0 15px 7%;
+}
+
+/* profile css */
+.profile_holder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.profile_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.profile_name{
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* app name holder */
+.app_name_holder hr{
+    width: 80%;
+    margin: 15px auto;
+    border: 1px solid rgba(195, 200, 255, 0.326);
+}
+.app_name_holder{
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(138, 138, 255);
+}
+
+/* Logfin Button */
+.login_button_holder{
+    position: absolute;
+    bottom: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login_button_holder button{
+    width: 85%;
+    border: 0;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.login_button{
+    background-color: blue;
+}
+.logout_button{
+    background-color: red;
+}

@@ -1,0 +1,138 @@
+.not_login_show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 100%;
+    text-align: center;
+}
+
+.not_login_show h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(93, 96, 255);
+}
+.not_login_show p{
+    margin-top: 7px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* View Display */
+.view_events_main_holder{
+    width: calc(85vw - 50px);
+    height: 100vh;
+    padding: 20px 25px;
+    height: 100%;
+    overflow-y: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top_strip_view_events{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_strip_view_events select{
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}
+
+.top_strip_view_events h2{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(93, 96, 255);
+}
+
+.view_events_content_holder{
+    margin-top: 17px;
+}
+
+.view_events_content_holder hr{
+    height: 1.7px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.view_events_content_holder h3{
+    margin: 7px 0;
+    font-size: 1rem;
+}
+.view_events_content{
+    margin: 15px 0 45px 0;
+}
+
+/* Events Card */
+.view_event_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(225, 225, 235, 0.541);
+    font-size: 0.9rem;
+}
+
+.view_events_card_date{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 7px;
+}
+
+.view_event_card h4{
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 7px;
+    color: rgb(97, 83, 255);
+}
+
+/* Events Card Right Section */
+.event_card_right_section{
+    display: flex;
+    column-gap: 18px;
+}
+.event_card_right_icon_div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.event_card_right_icon_div svg{
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: rgba(202, 209, 216, 0.543);
+    padding: 4px;
+    border-radius: 5px;
+}
+.event_card_delete_button{
+    color: rgb(255, 0, 0);
+}
+.event_card_edit_button{
+    color: rgb(111, 62, 156);
+}
+.event_card_edit_button:hover svg{
+    background-color: rgb(111, 62, 156);
+    color: white;
+}
+.event_card_delete_button:hover svg{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+
+/* No events */
+.no_events_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-radius: 10px;
+}
