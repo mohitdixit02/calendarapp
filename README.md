@@ -3,7 +3,7 @@
     Calendar App is a self project made to demonstrate the use of Django and React. The application provides the following features:
     <ul>
         <li>Personalised Event Management through authentication</li>
-        <li>Month and Year View with events</li>
+        <li>Month and Year Calendar View with events</li>
         <li>Manage, Add, Delete and Update as much events as you want</li>
         <li>View Events in different timelines using in-built filter</li>
         <li>Checkout the upcoming events easily.</li>
@@ -21,7 +21,7 @@
     <li>
         <h3>Backend: Django, Django Rest Framework</h3>
         <p>
-           The Backend of the application is made using Django. The backend includes models for user and tasks and connected to the frontend using Django Rest Framework. The backend provide
+           The Backend of the application is made using Django. The backend includes models for user and tasks, and connected to the frontend using Django Rest Framework. The backend provide
            <ol>
                 <li> APIs for user registration, events CRUD operations and fetching events data for different componenets.</li>
                 <li> platform to directly serve the frontend </li>
@@ -58,13 +58,13 @@ You can also checkout 'requirements.txt' for more details.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/mohitdixit02/musicappproject.git
+git clone https://github.com/mohitdixit02/calendarapp.git
 ```
 
 2. Open the project in terminal and install the dependencies
 
 ```bash
-cd calendarapp/backend
+cd calendarapp
 pip install -r requirements.txt
 ```
 
@@ -79,7 +79,7 @@ python manage.py runserver
 In case you want to start the dev server of frontend, open another terminal and run the following commands:
 
 ```bash
-cd calendarapp/backend/frontend
+cd calendarapp/frontend
 npm install
 npm start
 ```
