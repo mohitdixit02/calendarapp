@@ -1,6 +1,6 @@
 <h1>Calendar App</h1>
 <p>
-    Calendar App is a self project made to demonstrate the use of Django and React. The application provides the following features:
+    Calendar App is a self project made to demonstrate the use of Django and React. The application has the following features:
     <ul>
         <li>Personalised Event Management through authentication</li>
         <li>Month and Year Calendar View with events</li>
