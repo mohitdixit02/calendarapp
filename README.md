@@ -1,6 +1,7 @@
 <h1>Calendar App</h1>
+<h2>Project Overview</h2>
 <p>
-    Calendar App is a self project made to demonstrate the use of Django and React. The application has the following features:
+    Calendar App is a personal project that helps users manage their day-to-day events with ease, ensuring they never miss something important. The application offers the following features:
     <ul>
         <li>Personalised Event Management through authentication</li>
         <li>Month and Year Calendar View with events</li>
@@ -10,12 +11,12 @@
     </ul>
 </p>
 
-<h2>Technologies Used</h2>
+<h2>Technologies Stack</h2>
 <ul>
     <li>
         <h3>Frontend: React, Ant Design</h3>
         <p>
-            The frontend of the application is made using React and components of Ant Design. It includes components like user authentical pannel, calendar view, events view page, upcoming events page and event edit page.
+            The frontend of the application is made using React and components of Ant Design. It includes components like user authentication pannel, calendar view, events view page, upcoming events page and event edit page.
         </p>
     </li>
     <li>
