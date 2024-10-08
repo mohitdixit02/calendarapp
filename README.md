@@ -41,18 +41,10 @@
 
 <h3>Pre-requisites</h3>
     <ul>
-        <li>Node.js</li>
-        <li>Python</li>
-        <li>Django</li>
-        <li>Django dependencies:
-        <ul>
-            <li>django-cors-headers</li>
-            <li>django-rest-framework</li>
-        </ul>
-        </li>
+        <li>Node.js and Python3.1</li>
+        <li>Please use the requirements.txt to install python dependencies.</li>
+        <li>Node depenedencies will be installed through package.json.</li>
     </ul>
-
-You can also checkout 'requirements.txt' for more details.
 
 <h3>Steps to start project</h3>
 
@@ -62,7 +54,7 @@ You can also checkout 'requirements.txt' for more details.
 git clone https://github.com/mohitdixit02/calendarapp.git
 ```
 
-2. Open the project in terminal and install the dependencies
+2. Open the project in terminal and install the backend dependencies
 
 ```bash
 cd calendarapp
@@ -74,6 +66,7 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver
 ```
+Django will serve the frontend as well, so no need to start it separately. But in case you want to check it out, go through the below steps.
 
 <h3>Dev Server</h3>
 
@@ -85,7 +78,7 @@ npm install
 npm start
 ```
 
-!! Remember to modify the .env in frontend code to match the backend server with dev server or else it will not work.
+!! Also please modify the .env in frontend code to match the backend server (only for dev server).
 
 <h2>Suggestions</h2>
 I am happy for any suggestions or improvements. Feel free to open an issue or pull request.
